@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="HV-CSIcwyG_n2GBvmHQ7" name="Page-1">
+        <mxGraphModel dx="900" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Javascript Engine" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="30" width="760" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Call Stack" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="20" y="50" width="350" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Global execution context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="10" y="220" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Execution context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="10" y="180" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Execution context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="10" y="140" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="10" y="100" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Memory heap (objects are stored here)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="390" y="50" width="350" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Obj" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4">
+                    <mxGeometry x="60" y="40" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Obj" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4">
+                    <mxGeometry x="20" y="140" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Obj" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4">
+                    <mxGeometry x="130" y="100" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Obj" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4">
+                    <mxGeometry x="90" y="200" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Obj" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4">
+                    <mxGeometry x="180" y="170" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Obj" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4">
+                    <mxGeometry x="290" y="70" width="30" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

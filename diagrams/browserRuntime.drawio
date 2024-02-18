@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="2XCkPTeXxCZkE2hD_6fR" name="Page-1">
+        <mxGraphModel dx="900" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Javascript runtime in the browser" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="20" width="780" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Javascript Engine" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="20" y="50" width="420" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="HEAP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="20" y="50" width="180" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="CALL STACK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="220" y="50" width="180" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="WEB API's" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="460" y="50" width="310" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="DOM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+                    <mxGeometry x="30" y="40" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Timers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+                    <mxGeometry x="170" y="40" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Fetch API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+                    <mxGeometry x="30" y="90" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+                    <mxGeometry x="170" y="90" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Callback queue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="460" y="210" width="310" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="click" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+                    <mxGeometry x="20" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="timer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+                    <mxGeometry x="100" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+                    <mxGeometry x="180" y="50" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5">
+                    <mxGeometry x="250" y="50" width="40" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
